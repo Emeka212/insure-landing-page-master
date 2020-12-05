@@ -1,0 +1,478 @@
+/*Feel free to remove these styles or customise in your own stylesheet 👍 */
+.attribution { margin-bottom: 5px;font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+a{text-decoration: none;}
+button{outline: none;}
+li{list-style: none;}
+
+/*the mobile view is set to display none */
+.mobile_third_section_img,
+.mobile_right_pattern,
+.open_close_btn,
+.mobile_Top_bg_img,
+.mobile_top_bg,
+.mobile_Top_bg_pattern,
+.mobile_h1,
+.mobile_top_sub,
+.mobile_top_bg_btn{
+	display: none;
+}
+
+
+
+
+/*style begins here*/
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	font-family: Arial;
+	/*overflow-x: hidden;*/
+}
+header{
+	width: 100%;
+	padding: 25px 0px 20px 0px;
+	background: #fff;
+	display: flex;
+	position: relative;
+	font-family: [Karla](https://fonts.google.com/specimen/Karla);
+    font-weight: 400px;
+    z-index: 1;
+}
+header .logo{
+	position: relative;
+	margin-left: 5%;
+}
+header .header_link{
+	position: absolute;
+	right: 5%;
+}
+header .header_link li{
+	display: inline;
+	list-style: none;
+	position: relative;
+    margin-left: 30px;
+	color: hsl(256, 26%, 20%);
+	cursor: pointer;
+}
+header .header_link li:hover{
+	color: hsl(0, 0%, 98%);
+}
+.view_plans{
+	border: 2px solid hsl(256, 26%, 20%);
+	padding: 10px 25px 10px 25px;
+	font-size: 15px;
+}
+.view_plans:hover{
+	background: hsl(270, 9%, 17%);
+}
+.open_close_btn{
+	cursor: pointer;
+	position: absolute;
+	right: 5%;
+	top: 20px;
+}
+.top_bg{
+	width: 100%;
+	padding: 120px 0px 120px 0px;
+	position: relative;
+	background: hsl(256, 26%, 20%);
+}
+.top_bg .hr{
+	width: 110px;
+	margin-left: 5%;
+}
+.top_bg .h1{
+	width: 32%;
+	margin-left: 5%;
+}
+.top_bg h1{
+	color: #fff;
+	font-size: 60px;
+	font-family: all;
+}
+.top_bg .top_sub{
+	color: #fff;
+	width: 39.5%;
+	font-size: 15px;
+	margin-left: 5%;
+	line-height: 25px;
+	margin-top: -20px;	
+}
+.top_bg .Top_bg_img{
+	top: 130px;
+	right: 5%;
+	position: absolute;
+}
+.top_bg .Top_bg_pattern{
+	top: -75px;
+	right: 0px;
+	position: absolute;
+}
+.top_bg .Top_bg_pattern img{
+	height: 550px;
+}
+.top_bg_btn{
+	margin-left: 5%;
+	margin-top: 25px;
+}
+.top_bg_btn button{
+	width: 140px;
+	height: 40px;
+	color: #fff;
+	cursor: pointer;
+	background: transparent;
+	border: 2px solid #fff;
+}
+.top_bg_btn button:hover{
+	background: #fff;
+	color: hsl(256, 26%, 20%);
+}
+.section_two .left_pattern{
+	position: relative;
+	margin-top: -100px;
+}
+.section_two .section_two_hr{
+	width: 110px;
+	position: relative;
+	margin-top: -50px;
+	margin-left: 5%;
+}
+.section_two .h1{
+	width: 32%;
+	margin-left: 5%;
+	position: relative;
+}
+.section_two h1{
+	color: hsl(270, 9%, 17%);
+	font-size: 60px;
+	font-family: all;
+}
+.section_two .section_two_row{
+	position: relative;
+	margin-bottom: 50px;
+	margin-left: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+.section_two .card{
+	padding: 10px;
+	margin-right: 10px;
+	width: 28%;
+}
+.section_two .card img{
+	width: 60px;
+}
+.section_two .card h3{
+    color: hsl(256, 26%, 20%);
+    font-size: 20px;
+    font-family: none;
+}
+.section_two .card span{
+	color: hsl(273, 4%, 51%);
+	font-size: 15px;
+	line-height: 20px;
+}
+.third_section{
+	overflow: hidden;
+	position: relative;
+	margin: 150px 0px 150px 5%;
+	width: 85%;
+	background: hsl(256, 26%, 20%);
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.third_section .third_section_img{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.third_section .h1{
+	width: 48%;
+	margin-left: 5%;
+	z-index: 1;
+}
+.third_section h1{
+	color: #fff;
+	font-size: 55px;
+	font-family: all;
+}
+.third_section .third_section_btn{
+	position: relative;
+	top: 70px;
+	left: 150px;
+	margin-left: 5%;
+	margin-top: 25px;
+	z-index: 1;
+}
+.third_section .third_section_btn button{
+	width: 140px;
+	height: 40px;
+	color: #fff;
+	cursor: pointer;
+	background: transparent;
+	border: 2px solid #fff;
+}
+.third_section .third_section_btn button:hover{
+	color: hsl(256, 26%, 20%);
+	background: #fff;
+}
+footer{
+	overflow: hidden;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	background: hsl(0, 0%, 98%);
+}
+footer .footer_pattern_img img{
+	top: -50px;
+	right: 0px;
+	position: relative;
+}
+footer .footer_First_div{
+	position: relative;
+	margin-top: -200px;
+	margin-left: 5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer .footer_social_img{
+	position: relative;
+	margin-left: 67%;
+}
+footer .footer_social_img img{
+	margin-left: 10px;
+	cursor: pointer;
+}
+footer .footer_hr{
+	width: 85%;
+	position: relative;
+	margin: 50px 0px 50px 5%;
+}
+footer .footer_row{
+	display: flex;
+	flex-wrap: wrap;
+}
+footer .footer_link{
+	position: relative;
+	margin-left: 5%;
+	line-height: 30px;
+	color: hsl(256, 26%, 20%);
+	font-size: 15px;
+	margin-right: 100px;
+}
+footer .footer_link h4{
+	color: gray;
+}
+footer .footer_link li{
+	cursor: pointer;
+}
+footer .footer_link li:hover{
+	text-decoration: underline;
+}
+@media screen and (max-width: 750px){
+	/*the desktop view is set to display none*/
+	.third_section_img,
+	.left_pattern,
+	.header_link,
+	#close,
+	.hr,
+	.top_bg .h1,
+	.top_sub,
+	.top_bg_btn,
+	.Top_bg_img,
+	.Top_bg_pattern{
+		display: none;
+	}
+	/*the mobile view is set to display block */
+	.mobile_third_section_img,
+	.mobile_right_pattern,
+	.open_close_btn,
+	.mobile_Top_bg_img,
+	.mobile_top_bg,
+	.mobile_Top_bg_pattern,
+	.mobile_h1,
+	.mobile_top_sub,
+	.mobile_top_bg_btn{
+		display: block;
+	}
+	header .header_link{
+	background: hsl(256, 26%, 20%);
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	right: 0px;
+	top: 65px;
+	}
+	header .header_link li{
+		display: block;
+	    margin-left: 0px;
+		color: #fff;
+	}
+	header .header_link li:hover{
+		color: #555;
+	}
+	.view_plans{
+		left: 50%;
+		transform: translate(-50%);
+		border: 2px solid #fff;
+		padding: 0px 25px 0px 25px;
+		width: 80%;
+	}
+	.view_plans:hover{
+		background: #fff;
+		color: #000;
+	}
+	.mobile_Top_bg_img img{
+        position: relative;
+        width: 100%;
+        top: -120px;
+	}
+	.mobile_Top_bg_pattern img{
+		position: relative;
+		top: -125px;
+	}
+	.mobile_h1{
+		position: relative;
+		text-align: center;
+		margin-top: -250px;
+		padding: 0px 10px 0px 10px;
+	}
+	.mobile_top_sub{
+		color: #fff;
+		line-height: 25px;
+		text-align: center;
+		padding: 0px 20px 0px 20px;
+	}
+	.mobile_top_bg_btn{
+		margin-top: 30px;
+	}
+	.mobile_top_bg_btn button{
+		position: relative;
+		width: 140px;
+		height: 40px;
+		color: #fff;
+		cursor: pointer;
+		background: transparent;
+		border: 2px solid #fff;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.mobile_top_bg_btn button:hover{
+		background: #fff;
+		color: hsl(256, 26%, 20%);
+	}
+	.mobile_right_pattern img{
+		position: relative;
+		margin-top: -100px;
+		float: right;
+		display: none;
+	}
+	.section_two .section_two_hr{
+		width: 30%;
+		position: relative;
+		margin-top: 150px;
+		margin-left: 50%;
+		transform: translateX(-50%);
+    }
+    .section_two .h1{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.section_two h1{
+		font-size: 50px;
+		text-align: center;
+    }
+    .section_two .section_two_row{
+		margin-bottom: 50px;
+		margin-left: 0px;
+		display: block;
+		margin-top: 50px;
+		text-align: center;
+	}
+	.section_two .section_two_row .card{
+		width: 90%;
+		margin-left: 4%;
+		padding: 10px;
+	}
+	.section_two .section_two_row .card h3{
+		color: hsl(256, 26%, 20%);
+		font-weight: bold;
+		font-size: 25px;
+	}
+    .third_section{
+	margin: 150px 0px 150px 3%;
+	width: 90%;
+	display: block;
+	}
+	.third_section .mobile_third_section_img{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.third_section .h1{
+		text-align: center;
+		width: 100%;
+		margin-left: 0%;
+		z-index: 1;
+	}
+	.third_section h1{
+		font-size: 40px;
+	}
+	.third_section .third_section_btn{
+		position: static;
+		top: 50px;
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+	.third_section .third_section_btn button{
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+	.third_section .third_section_btn button:hover{
+		color: hsl(256, 26%, 20%);
+		background: #fff;
+	}
+	footer{
+		text-align: center;
+		padding: 50px 0px 50px 0px;
+		background: hsl(0, 0%, 98%);
+	}
+	footer .footer_pattern_img img{
+	top: -70px;
+	right: 10%;
+	}
+	footer .footer_First_div{
+		margin-top: -200px;
+		display: block;
+		flex-wrap: wrap;
+	}
+	footer .footer_social_img{
+		position: relative;
+		margin-top: 50px;
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+	footer .footer_hr{
+		width: 90%;
+		margin: 50px 0px 50px 5%;
+	}
+	footer .footer_row{
+		display: block;
+	}
+	footer .footer_link{
+		margin-left: 50%;
+		transform: translateX(-50%);
+		margin-right: 0px;
+	}
+
+	footer .footer_link li{
+		font-weight: bold;
+	}
+
+}

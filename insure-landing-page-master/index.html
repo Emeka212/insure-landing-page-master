@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <title>Frontend Mentor | Insure landing page</title>
+
+</head>
+<body>
+  <!-- for the header section -->
+  <header>
+    <div class="logo"><img src="images/logo.svg"></div>
+    <div class="header_link" id="header_link">
+      <a href="#"><li>How we work</li></a>
+      <a href="#"><li>Blog</li></a>
+      <a href="#"><li>Account</li></a>
+      <a href="#"><li class="view_plans">View plans</li></a>
+    </div>
+    <div class="open_close_btn">
+    <div id="open" onclick="open_menu()"><img src="images/icon-hamburger.svg"></div>
+    <div id="close" onclick="close_menu()"><img src="images/icon-close.svg"></div>
+    </div>
+  </header>
+  
+  <!-- for the top_background section -->
+  <div class="top_bg">
+    <div class="hr"><hr /></div>
+    <!-- for the mobile view -->
+    <div class="mobile_top_bg">
+      <div class="mobile_Top_bg_img">
+        <img src="images/image-intro-desktop.jpg">
+      </div>
+      <div class="mobile_Top_bg_pattern">
+        <img src="images/bg-pattern-intro-left-mobile.svg">
+      </div>
+      <div class="mobile_h1"><h1>Humanizing your insurance.</h1></div>
+      <div class="mobile_top_sub">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</div>
+      <div class="mobile_top_bg_btn">
+        <button>View plans</button>
+      </div>
+    </div>
+    <!-- end of mobile view -->
+    <div class="h1"><h1>Humanizing your insurance.</h1></div>
+    <div class="top_sub">Get your life insurance coverage easier and faster. We blend our expertise 
+  and technology to help you find the plan that’s right for you. Ensure you 
+  and your loved ones are protected.</div>
+    <div class="top_bg_btn">
+      <button>View plans</button>
+    </div>
+    <div class="Top_bg_img">
+      <img src="images/image-intro-desktop.jpg">
+    </div>
+    <div class="Top_bg_pattern">
+      <img src="images/bg-pattern-intro-right-desktop.svg">
+    </div>
+  </div>
+  
+  <!-- the next section under the top_background -->
+  <div class="section_two">
+    <div class="left_pattern">
+      <img src="images/bg-pattern-intro-left-desktop.svg">
+    </div>
+    <div class="mobile_right_pattern">
+      <img src="images/bg-pattern-intro-right-mobile.svg">
+    </div>
+    <div class="section_two_hr"><hr /></div>
+    <div class="h1">
+      <h1>We’re different</h1>
+    </div>
+    <div class="section_two_row">
+      <!-- card 1 -->
+      <div class="card">
+        <img src="images/icon-snappy-process.svg">
+        <h3>Snappy Process</h3>
+        <span>Our application process can be completed in minutes, not hours. Don’t get 
+  stuck filling in tedious forms.</span>
+      </div>
+      <!-- card 2 -->
+      <div class="card">
+        <img src="images/icon-affordable-prices.svg">
+        <h3>Affordable Prices</h3>
+        <span>We don’t want you worrying about high monthly costs. Our prices may be low, 
+  but we still offer the best coverage possible.</span>
+      </div>
+      <!-- card 3 -->
+      <div class="card">
+        <img src="images/icon-people-first.svg">
+        <h3>People First</h3>
+        <span>Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+  sure you’re covered when you need it.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- for the third section -->
+  <div class="third_section">
+    <div class="third_section_img"><img src="images/bg-pattern-how-we-work-desktop.svg"></div>
+    <div class="mobile_third_section_img"><img src="images/bg-pattern-how-we-work-mobile.svg"></div>
+    <div class="h1"><h1>Find out more about how we work</h1></div>
+    <div class="third_section_btn">
+      <button>View plans</button>
+    </div>
+  </div>
+
+  <!-- for the footer -->
+  <footer>
+    <div class="footer_pattern_img">
+      <img src="images/bg-pattern-footer-desktop.svg">
+    </div>
+    <div class="footer_First_div">
+      <div class="logo">
+        <img src="images/logo.svg">
+      </div>
+      <div class="footer_social_img">
+        <a href="https://facebook.com"><img src="images/icon-facebook.svg"></a>
+        <img src="images/icon-twitter.svg">
+        <img src="images/icon-pinterest.svg">
+        <img src="images/icon-instagram.svg">
+      </div>
+    </div>
+    <div class="footer_hr"><hr /></div>
+    <div class="footer_row">
+      <div class="footer_link one">
+        <h4>Our company</h4>
+        <li>How we work</li>
+        <li>Why Insure?</li>
+        <li>View plans</li>
+        <li>Reviews</li>
+      </div>
+      <div class="footer_link two">
+        <h4>Help me</h4>
+        <li>FAQ</li>
+        <li>Terms of use</li>
+        <li>Privacy policy</li>
+        <li>Cookies</li>
+      </div>
+      <div class="footer_link three">
+        <h4>Contact</h4>
+        <li>Sales</li>
+        <li>Support</li>
+        <li>Live chat</li>
+      </div>
+      <div class="footer_link four">
+        <h4>Others</h4>
+        <li>Careers</li>
+        <li>Press</li>
+        <li>Licenses</li>
+      </div>
+    </div>
+  </footer>
+
+  
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://mc-stephen.000webhostapp.com">Emeka Stephen Michael</a>.
+  </div>
+
+<script type="text/javascript">
+  function open_menu() {
+    var open = document.getElementById('open').style.display = "none";
+    var close = document.getElementById('close').style.display = "block";
+    var close = document.getElementById('header_link').style.display = "block";
+  }
+  function close_menu() {
+    var open = document.getElementById('open').style.display = "block";
+    var close = document.getElementById('close').style.display = "none";
+    var close = document.getElementById('header_link').style.display = "none";
+  }
+  
+</script>
+</body>
+</html>
